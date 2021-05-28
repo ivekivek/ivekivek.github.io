@@ -5,9 +5,8 @@ var i = 0,
 var textArray = [ " My name is IvekIvek 😋|", 
                     "Simply in love with programming 💖|", 
                     "Mostly developig bots, scrapers, web apps 🐱‍| ", 
-                    "Recently project was Front runner for Uniswap 😎|", 
-                    "You can contact me on Telegram @IvekIvek 🐱‍👤|", 
-                    "Love reading and good music 👌| Visit my Github: https://github.com/ivekivek" ];
+                    "Recently project was Front runner for Uniswap 😎|",
+                    "Love reading and good music 👌|" ];
 var speedForward = 100,
     speedWait = 1000,
     speedBetweenLines = 1000,
