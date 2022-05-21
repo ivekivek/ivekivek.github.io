@@ -5,7 +5,8 @@ var i = 0,
 var textArray = [ " My name is IvekIvek 😋|", 
                     "Simply in love with programming 💖|", 
                     "Mostly developig bots, scrapers, web apps 🐱‍| ", 
-                    "Recently project was Front runner for Uniswap 😎|",
+                    // "Recently project was Front runner for Uniswap 😎|",
+                    "Look latests 4 successful projects down 😎|",
                     "Love reading and good music 👌|" ];
 var speedForward = 100,
     speedWait = 1000,
@@ -22,8 +23,8 @@ function typeWriter(id, ar) {
     if (i < aString.length) {
       if (aString.charAt(i) == "|") {
         isParagraph = true;
-        eHeader.removeClass("cursor");
-        eParagraph.addClass("cursor");
+        // eHeader.removeClass("cursor");
+        // eParagraph.addClass("cursor");
         i++;
         setTimeout(function(){ typeWriter(id, ar); }, speedBetweenLines);
       } else {
